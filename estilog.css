@@ -1,0 +1,16 @@
+* {
+  background-color: rgb(220, 235, 245);
+}
+h1 {
+  margin: 60px;
+}
+.joyeria {
+  display: grid;
+  grid-template-columns: 20% 40%;
+  grid-template-rows: 200px 600px;
+  gap: 3;
+}
+img {
+  height: 90px;
+  margin: 10px;
+}
