@@ -3,14 +3,96 @@
 }
 h1 {
   margin: 60px;
+  text-align: center;
 }
+
 .joyeria {
   display: grid;
-  grid-template-columns: 20% 40%;
-  grid-template-rows: 200px 600px;
-  gap: 3;
+  grid-template-columns: 300px 300px 300px;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  background:
+    radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 23px,
+        transparent 23px
+      )
+      0% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 23px, transparent 23px)
+      100% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 23px, transparent 23px)
+      0% 100%/30px 30px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 23px, transparent 23px)
+      100% 100%/30px 30px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 14px)
+      calc(100% - 60px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 60px)
+      calc(100% - 14px) no-repeat,
+    linear-gradient(187deg, #ef38f7 0%, #6d0fef 65%);
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
 }
-img {
-  height: 90px;
-  margin: 10px;
+
+.imagen-anillo {
+  width: 200px;
+  margin: 0px auto;
+}
+
+.boton-anillo {
+  background: linear-gradient(90deg, #ff47d1, #5cffff);
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0, 4s;
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  margin: 0% auto;
+}
+.boton-anillo:hover {
+  background: linear-gradient(90deg, #5cffff, #ff47d1);
+  box-shadow: 0.5px 15px #d6ffff;
+}
+
+.anillo {
+  display: flex;
+  flex-direction: column;
+  background:
+    radial-gradient(
+        circle at 100% 100%,
+        #ffffff 0,
+        #ffffff 23px,
+        transparent 23px
+      )
+      0% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 23px, transparent 23px)
+      100% 0%/30px 30px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 23px, transparent 23px)
+      0% 100%/30px 30px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 23px, transparent 23px)
+      100% 100%/30px 30px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 14px)
+      calc(100% - 60px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50% / calc(100% - 60px)
+      calc(100% - 14px) no-repeat,
+    linear-gradient(187deg, #52dcff 0%, #ff3d3d 65%);
+  border-radius: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.titulo-anillo {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0% auto;
 }
