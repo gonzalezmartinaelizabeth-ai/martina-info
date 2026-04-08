@@ -112,7 +112,6 @@ nav a {
   background: transparent;
   color: white;
 }
-
 .g {
   color: #ff4d4d;
 }
@@ -129,6 +128,22 @@ input {
   border-radius: 12px;
   color: white;
 }
+.este {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10x;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-top: 20px;
+}
+.este :hover {
+  -webkit-box-shadow: 0px 0px 1px 4px #00dfff;
+  box-shadow: 0px 0px 1px 4px #00dfff;
+}
+
 .email {
   background: #eaeaea;
   color: black;
@@ -139,7 +154,7 @@ small {
   font-size: 11px;
   color: #666;
 }
-.download {
+.descargar {
   margin-top: 25px;
   border: 1px solid #2a2a2a;
   background: transparent;
@@ -201,13 +216,13 @@ small {
   padding: 12px;
   border-radius: 12px;
 }
-.folders {
+.carpeta {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   font-size: 13px;
 }
-.progress {
+.progreso {
   margin-top: 10px;
   background: #2a2a2a;
   padding: 10px;
@@ -215,6 +230,19 @@ small {
   font-size: 12px;
 }
 button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+.primero {
+  margin-left: 300px;
+}
+.segundo {
+  margin-right: 300px;
+}
+.loguito {
+  display: flex;
+  gap: 10px;
+  margin: 70px;
   opacity: 0.85;
   cursor: pointer;
 }
