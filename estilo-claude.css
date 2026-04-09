@@ -83,14 +83,18 @@ nav a {
 }
 
 .left h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
 }
 
 .left p {
   color: #9a9a9a;
   margin-top: 20px;
+  text-align: center;
+  margin-top: 1px;
 }
 .form {
   margin-top: 30px;
@@ -108,36 +112,35 @@ nav a {
 .google {
   border: 1px solid #333;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 8px;
   background: transparent;
   color: white;
 }
 .g {
-  color: #ff4d4d;
+  color: #ffa34d;
 }
 
 .divider {
   text-align: center;
   color: #666;
+  margin-top: 1px;
 }
 
 input {
   background: #1a1a1a;
   border: none;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 8px;
   color: white;
 }
 .este {
-  margin-top: 30px;
-  padding: 25px;
-  border-radius: 18px;
+  margin-top: 0px;
+  padding: 1px;
   display: flex;
   flex-direction: column;
-  gap: 10x;
+  gap: 1px;
   cursor: pointer;
   transition: 0.2s;
-  margin-top: 20px;
 }
 .este :hover {
   -webkit-box-shadow: 0px 0px 1px 4px #00dfff;
@@ -148,19 +151,19 @@ input {
   background: #eaeaea;
   color: black;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 small {
   font-size: 11px;
-  color: #666;
+  color: #969696;
 }
 .descargar {
-  margin-top: 25px;
-  border: 1px solid #2a2a2a;
+  margin-top: 305px;
+  border: 1px solid #d1c5c5;
   background: transparent;
   padding: 12px;
   border-radius: 999px;
-  color: #ccc;
+  color: #ffffff;
 }
 .right {
   position: relative;
@@ -173,8 +176,8 @@ small {
   border-radius: 28px;
 
   background-image:
-    linear-gradient(#222 1px, transparent 1px),
-    linear-gradient(90deg, #222 1px, transparent 1px);
+    linear-gradient(#000000 1px, transparent 1px),
+    linear-gradient(90deg, #000000 1px, transparent 1px);
 
   background-size: 45px 45px;
 }
@@ -184,7 +187,7 @@ small {
   left: 80px;
   width: 320px;
 
-  background: rgba(25, 25, 25, 0.9);
+  background: rgba(39, 38, 38, 0.9);
   backdrop-filter: blur(15px);
 
   padding: 16px;
