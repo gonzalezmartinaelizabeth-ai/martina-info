@@ -1,0 +1,9 @@
+body {
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-mono: Arial;
+}
+button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
